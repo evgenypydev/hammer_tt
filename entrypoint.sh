@@ -1,0 +1,1 @@
+python3 hammer_tt/manage.py collectstatic --no-input; python3 hammer_tt/manage.py migrate; python3 hammer_tt/manage.py runserver 0.0.0.0:8000;
